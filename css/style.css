@@ -1,8 +1,11 @@
 h1{
     Color: white;
-    Font-size: 40px;
+    Font-size: 50px;
 }
-
+h2{
+    font-size:30px;
+    color:black;
+}
 body{
     background-color: #174e72;
     font-size: 25px;
@@ -14,6 +17,10 @@ img{
     width:600px;
 }
 
-div{
+#imagen-principal{
     background-color: rgba(37, 6, 63, 0.363);
+}
+
+#imagen-secundaria{
+    background-color: bisque;
 }
