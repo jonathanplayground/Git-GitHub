@@ -8,7 +8,12 @@ body{
     font-size: 25px;
     color: rgb(199, 171, 171);
 }
+
 img{
     border-radius: 100%;
     width:600px;
+}
+
+div{
+    background-color: rgba(37, 6, 63, 0.363);
 }
