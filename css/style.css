@@ -12,15 +12,21 @@ body{
     color: rgb(199, 171, 171);
 }
 
-img{
+#img-principal{
     border-radius: 100%;
-    width:600px;
+    width:500px;
+}
+#img-secundaria{
+    size:300px;
 }
 
-#imagen-principal{
+#superior{
     background-color: rgba(37, 6, 63, 0.363);
 }
 
-#imagen-secundaria{
-    background-color: bisque;
+#central{
+    background-color: rgb(35, 6, 58);
+}
+#img-secundaria{
+    border-radius:80%;
 }
