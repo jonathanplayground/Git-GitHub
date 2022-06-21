@@ -4,12 +4,16 @@ h1{
 }
 h2{
     font-size:30px;
-    color:black;
+    color:rgb(199, 171, 171);
 }
+
 body{
-    background-color: #174e72;
+    /* background-image: radial-gradient(#174e72, rgba(37, 6, 63), rgb(140, 82, 247)); */
+    /* background-color: #174e72; */
+    background-image: url(../img/planeta-choque.jpg); 
     font-size: 25px;
     color: rgb(199, 171, 171);
+    background-color: #cccccc;
 }
 
 #img-principal{
@@ -17,16 +21,18 @@ body{
     width:500px;
 }
 #img-secundaria{
-    size:300px;
+    border-radius:80%;
+    width: 300px;
 }
 
 #superior{
     background-color: rgba(37, 6, 63, 0.363);
 }
 
-#central{
-    background-color: rgb(35, 6, 58);
+.central{
+    background-color: rgba(37, 6, 63, 0.363);
 }
-#img-secundaria{
-    border-radius:80%;
+
+#inferior{
+    background-color: rgba(37, 6, 63, 0.363);
 }
